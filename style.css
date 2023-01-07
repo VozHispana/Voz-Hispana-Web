@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+body {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 63px;
+    background: #5c5c5c;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+.navbar {
+    display: flex;
+    margin-right: 10px;
+}
+
+.logo {
+    margin-left: 30px;
+}
+
+.logo a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a {
+    display: block;
+    padding: 20px 20px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a:hover{
+    background: #494646;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.header {
+    height: 60vh !important;
+    background: url(img/lol.jpg)no-repeat center;
+    background-size: cover;
+}
+
+.title {
+    margin-bottom: 10px;
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: rgb(144, 142, 142);
+}
+
+p {
+    margin-bottom: 40px;
+    font-size: 18px;
+    padding: 0 50px;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 40px;
+    border: none;
+    color: rgb(153, 150, 155);
+    text-decoration: none;
+    background: #000000;
+    border-radius: 1rem;
+    box-shadow: 0 .3rem 5rem rgba(0, 0, 0, .5);
+}
+
+.btn:hover {
+    background: #282828;
+
+}
+
+.btn-home {
+    display: flex;
+}
+
+.btn-home a {
+    margin: 0 10px;
+}
+
+
+.content {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sau {
+    padding: 30px;
+    background: #1f1d1d;
+}
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.box-container .box {
+    height: 11rem;
+    width: 17rem;
+    background: #101010;
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: 0 .3rem 5rem rgba(0, 0, 0, .5);
+    margin: 2rem;
+}
+
+.box-container .box i {
+    height: 3rem;
+    width: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    border-radius: 50%;
+    color: rgb(255, 255, 255);
+    background: #343334;
+    font-size: 2rem;
+    margin: 1rem 0;
+    
+}
+
+.box-container .box h3 {
+    font-size: 20px;
+    color: #7b7b7b;
+}
+
+.box-container .box p {
+    font-size: 16px;
+    padding: 0 15px;
+}
+
+.about {
+    background: #1f1d1d;
+}
+
+.discord {
+    background: #1f1d1d;
+    background-attachment: fixed;
+    text-align: center;
+}
+
+.contact {
+    padding-top: 20px;
+    background: #1f1d1d;
+    padding-bottom: 0;
+}
+
+@media (max-with: 768px) {
+    
+    .title{
+        margin-bottom: 0;
+        font-size: 40px;
+    }
+
+    .sau {
+        height: 120vh;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+}
