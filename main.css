@@ -91,7 +91,7 @@ p {
 }
 
 .btn:hover {
-   background: #1b1b1b;
+    background: #1b1b1b;
 
 }
 
@@ -167,11 +167,14 @@ p {
     text-align: center;
 }
 
+
 .contact {
     padding-top: 20px;
     background: #1f1d1d;
     padding-bottom: 0;
 }
+
+
 
 @media (max-with: 768px) {
     
