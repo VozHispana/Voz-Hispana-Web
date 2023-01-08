@@ -55,7 +55,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-
+    padding-top: 80px;
 }
 
 .header {
@@ -113,6 +113,7 @@ p {
 }
 
 
+
 .sau {
     padding: 30px;
     background: #1f1d1d;
@@ -160,7 +161,10 @@ p {
 
 .about {
     background: #1d1c1c;
+    padding-top: 100px;
 }
+
+
 
 .discord {
     background: #1f1d1d;
