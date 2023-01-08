@@ -87,7 +87,7 @@ p {
     text-decoration: none;
     background: #000000;
     border-radius: 1rem;
-    box-shadow: 0 .3rem 5rem rgba(0, 0, 0, .5);
+    box-shadow: 0 .3rem 5rem rgba(187, 0, 255, 0.5);
 }
 
 .btn:hover {
